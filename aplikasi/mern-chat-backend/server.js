@@ -7,10 +7,16 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const User = require('./models/User');
 const Message = require('./models/Message')
+const path = require('path')
+
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
 app.use(cors());
 app.use('/users', userRoutes)
+app.use(express.static(path.join(__dirname, '././build')))
+app.grt('*', function(req,res){
+  res.sendFile(path.join(__dirname, '././build/index.html'))
+})
 require('./connection')
 dotenv.config();
 mongoose.connect(
@@ -95,6 +101,6 @@ app.get('/rooms', (req, res)=>{
   res.json(rooms)
 })
 
-server.listen(PORT, ()=>{
+server.listen(process.env.PORT, ()=>{
     console.log('listening to port', PORT)
 })
