@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6327cf3df8c0e3babf3063ae"
+  },
+  "name": "fernando",
+  "email": "nandoperdos@gmail.com",
+  "password": "$2b$10$AnrxJ.hbwMyUTHc.W7yqXevSae4wxfmr6O4DSqJ.s3vewnLuBZODW",
+  "picture": "http://res.cloudinary.com/ddr4gso17/image/upload/v1663553339/mjorwqwy5rbgjzbxuceg.jpg",
+  "status": "offline",
+  "newMessages": {},
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6327cff089248ae04c4f225d"
+  },
+  "name": "mosez",
+  "email": "nandoperdos2@gmail.com",
+  "password": "$2b$10$8m0HG3GXXidb9YVcdJgN7.jWfQ4xOdjmJIudUDrkv6l.uQEokRzUi",
+  "picture": "http://res.cloudinary.com/ddr4gso17/image/upload/v1663553519/xnq76ly0wriavtonfkyj.jpg",
+  "status": "online",
+  "newMessages": {},
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6327d09f89248ae04c4f225f"
+  },
+  "name": "User1",
+  "email": "user@example.com",
+  "password": "$2b$10$.9T28Y5QweQCBPaQDUN/3.Pww5KAWfP2Sq7zDsVeKM9o4ujSJWnEu",
+  "status": "online",
+  "newMessages": {},
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63326ec35ee8d7304e382381"
+  },
+  "name": "coba",
+  "email": "nandoperdos3@gmail.com",
+  "password": "$2b$10$5SoXDlF.WldCyhae5WEQzOZrLmAXYOfv2MJ9i/rXoDkYBf1MCjCgW",
+  "picture": "http://res.cloudinary.com/ddr4gso17/image/upload/v1664249535/vgyftbd9bjiwe0bi8tzk.jpg",
+  "status": "offline",
+  "newMessages": {},
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "634d5bfa071accf9142abf2f"
+  },
+  "name": "epen",
+  "email": "epen@gmail.com",
+  "password": "$2b$10$jkGunGpnO5lxzmF0F2OVVOPoCmyBe88ATXbuQ0xSPyxerjTUHTC0a",
+  "picture": "http://res.cloudinary.com/ddr4gso17/image/upload/v1666014204/lqjjrdrfncniltf1m7ys.jpg",
+  "status": "offline",
+  "newMessages": {},
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636622fecab855de07b2daa5"
+  },
+  "name": "acel",
+  "email": "acel@gmail.com",
+  "password": "$2b$10$NXqfs9lRb5c81AAZ0CZ/uuvGb23TCn.b8eLqfrzH5B1wZZ0wpzana",
+  "picture": "http://res.cloudinary.com/ddr4gso17/image/upload/v1667638011/hulxugcm4pnqypmfsay8.jpg",
+  "status": "online",
+  "newMessages": {},
+  "__v": 0
+}]
